@@ -1,0 +1,40 @@
+body {
+ background-color: #FFDEAD;
+}
+
+#inicio {
+ text-align: center;
+ border-radius: 20px;
+}
+
+img {
+ border-radius: 20px;
+}
+
+#votos {
+ text-align: center;
+}
+
+.contra, .afavor{
+ font-size: 30px;
+ border-radius: 20px;
+ border: solid 1px black;
+ background-color: red;
+ color: white;
+}
+
+#afavor {
+ margin-right: 50px;
+ font-size: 30px;
+ position: relative;
+ right: 60px;
+ top: 10px;
+}
+
+#contra {
+ margin-left: 50px;
+ font-size: 30px;
+ position: relative;
+ left: 60px;
+ bottom: 140px;
+}
